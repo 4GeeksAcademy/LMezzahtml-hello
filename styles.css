@@ -1,5 +1,6 @@
 body{
-    align-content: center;
+    display: flex;
+    justify-content: center;
 }
 .post-card{
     width: 400px;
@@ -52,11 +53,13 @@ img{
 .post-icon{
     display: flex;
     align-content: flex-end;
+    
 }
 .icon4 {
     flex-basis: 70%;
-    margin-left: 55%;
+    margin-left: 50%;
 }
-p{
+.text-footer{
     text-align: justify;
+    padding: 10px;
 }
